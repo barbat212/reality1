@@ -5,7 +5,7 @@ module.exports = function(deployer, network, accounts) {
 	const cells = 100000000000000; // one hundred trillions
 	const amount = new web3.BigNumber(web3.toWei(cells, 'ether'));
 	const name = "REALITY";
-	const symbol = "REAL";
+	const symbol = "RLT";
 	const granularity = new web3.BigNumber(web3.toWei(1, 'ether'));
 	const data = "";
 
